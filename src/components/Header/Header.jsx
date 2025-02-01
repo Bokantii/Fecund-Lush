@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Header.module.scss";
 import logo from "./../../assets/logo/fecund lush (black) icon only.png";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // ✅ Correct import
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
