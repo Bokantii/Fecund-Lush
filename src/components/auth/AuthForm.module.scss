@@ -1,0 +1,32 @@
+.authFormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  .authForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9f9f9f;
+    height: 80%;
+    width: 70%;
+    border-radius: 8px;
+    .logo{
+        width: 100px;
+        height: 30px;
+    }
+    img {
+      height: 100%;
+      width: 50%;
+    }
+    form {
+      height: 100%;
+      width: 50%;
+    //   border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

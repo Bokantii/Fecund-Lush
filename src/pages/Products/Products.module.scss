@@ -1,0 +1,28 @@
+.products{
+    .banner{
+        width:100vw;
+        height: 50vh;
+        background:url('./../../assets/canadaBrown.png') no-repeat  top center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        opacity: 0.5;
+        h3{
+            font-size: 4rem;
+            z-index: 200;
+        }
+        // border: 2px solid red;
+    }
+     .productList {
+    // border: 1px solid blue;
+    width: 97vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+}

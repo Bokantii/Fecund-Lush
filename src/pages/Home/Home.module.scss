@@ -1,0 +1,112 @@
+.home {
+  overflow-x: hidden;
+  .heroSection {
+    width: 100vw;
+    height: 110vh;
+    background-image: url("./../../assets/prodFecund2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-top: 10px;
+    
+    .heroContent {
+      // border: 1px solid red;
+      width: 40%;
+      position: absolute;
+      left: 50px;
+      top: 150px;
+      padding: 50px;
+      background-color: #ffffff;
+      opacity: 0.9;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 50%;
+      .heading {
+        font-weight: 700;
+        font-size: 40px;
+        text-transform: capitalize;
+      }
+      .shopNow {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 35%;
+        text-decoration: none;
+        margin-top: 10px;
+        transition: 0.4s background-color ease;
+        border-radius: 5px;
+        &:hover {
+          background-color: #525252;
+        }
+      }
+    }
+  }
+  .productRange {
+    // border:2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .categories {
+      width: 100vw;
+      // padding:20px 100px;
+      // border: 2px solid purple;
+      position: relative;
+      .categories_heading {
+        // border: 1px solid red;
+        padding: 20px;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        right: 0;
+
+        h2 {
+          text-align: center;
+          text-transform: capitalize;
+          font-size: 18px;
+        }
+        p {
+          text-align: center;
+          font-size: 14px;
+        }
+      }
+      .categoryList {
+        // width: 200vw;
+        // position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 120px;
+      }
+    }
+  }
+  .productList {
+    // border: 1px solid blue;
+    width: 97vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+  .view_more {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 10%;
+    text-decoration: none;
+    margin-top: 5rem;
+    transition: 0.4s background-color ease;
+    border-radius: 5px;
+    &:hover {
+      background-color: #525252;
+    }
+  }
+}

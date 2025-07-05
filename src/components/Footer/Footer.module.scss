@@ -1,0 +1,62 @@
+.footerSection {
+  width: 100vw;
+  padding: 4rem;
+  .footerContent {
+    padding: 1rem;
+    .upperSection {
+      border-bottom: 2px solid #d9d9d9;
+      display: flex;
+      justify-content: space-between;
+      .brand_info {
+        height: 100%;
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .brand_address{
+          color: #9f9f9f;
+          font-size: 14px;
+          line-height: 1.5;
+          margin: 3rem 0;
+        }
+      }
+      .links{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        .linkSection{
+          .header{
+            color:#9f9f9f;
+          }
+           .newsLetterForm{
+            //  border:1px solid red;
+             display: flex;
+             align-items: baseline;
+             width: 100%;
+           } 
+           ul{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            li{
+                list-style: none;
+                margin: 1rem 0;
+                a{
+                    text-decoration: none;
+                    color:black;
+                }
+            }
+           }
+        }
+      }
+    }
+    .copyright{
+      margin-top: 2rem;
+      font-size: 14px;
+    }
+  }
+  .logo {
+    width: 200px;
+  }
+}

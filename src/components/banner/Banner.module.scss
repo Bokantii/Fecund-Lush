@@ -1,0 +1,23 @@
+.banner {
+  width: 100vw;
+  height: 50vh;
+  background: url("./../../assets/FECUND_LUSH _SHOP_vhunky.jpg")
+    no-repeat left center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+
+  // border: 2px solid red;
+}
+h3 {
+  font-size: 4rem;
+  z-index: 200;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 5px 6px rgba(145, 141, 141, 0.82);
+}
